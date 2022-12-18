@@ -1,0 +1,375 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+.cute{
+	width: 90vw;
+	height: auto;
+}
+.Logged{
+    background: #212327;
+    max-width: 100vw;
+    min-height: 100vh;
+    color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Viewer{
+	background: #212327;
+    max-width: 100vw;
+    min-height: 100vh;
+    color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Article{
+	display: flex;
+	min-width: max-content;
+	flex-direction: column;
+	padding-bottom: 5rem;
+	justify-content: center;
+	min-width: 100vw;
+  }
+.story{
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+  .projectHold{
+	display: grid;
+	grid-template-columns: repeat( 2, 35rem);
+	gap: 7rem 7rem;
+	justify-content: center;
+  
+  }
+  .projects{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 2.5rem;
+	text-align: center;
+  }
+  .aboutHold{
+	background: white;
+	padding: 3rem;
+	height: fit-content;
+	-webkit-box-shadow: 0 0 3px black;
+	box-shadow: 0 0 3px black;
+	min-width: 10rem;
+	max-width: 40rem;
+	margin-top: 12rem;
+  }
+  .about{
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+  }
+  .aboutInfo{
+	font-size: 1.5rem;
+  }
+
+  .icon{
+	min-width: 2rem;
+	max-width:2rem ;
+	height:auto;
+	margin-right: 1rem;
+  }
+  .icon g{
+	fill: white;
+  }
+  .icon path{
+	fill: white;
+  }
+  .imgPlace{
+	min-height: 13rem;
+	max-height: 20rem;
+  }
+  .project{
+	-webkit-box-shadow: 0 0 3px black;
+	box-shadow: 0 0 3px black;
+  }
+  .imgPlace{
+	display: flex;
+	width: 35rem;
+	justify-content: center;
+	align-items: center;
+	font-size: xx-large;
+  }
+  .hold{
+	display: flex;
+	flex-direction: row;
+  }
+  .hold{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+  }
+  .projDes{
+	font-size: 1rem;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	color: gray;
+	margin-bottom: 2rem;
+  }
+  .imgDescrip{
+	min-height: 13rem;
+	
+  }
+  .ic{
+	display: flex;
+	flex-direction: row;
+  }
+  .infoHolder{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+  }
+  .infoHolder p{
+	margin-bottom: 1rem;
+  }
+  
+  a{
+	text-decoration: none;
+  }
+
+
+  .readNow{
+	background: #212327;
+	border: 1px solid #008060;
+	color: white;
+	margin-top: 5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	margin-left: 2rem;
+	font-size: 1.25rem;
+  }
+
+  .readNow:hover{
+	background: #008060;
+  }
+  .slideshow-container{
+	display: flex;
+	flex-direction: row;
+	max-width: 90vw;
+  }
+  .mySlides1{
+	display: none;
+  }
+
+.mySlides2{
+	display: none;
+}
+.prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top:40rem;
+        max-width: 3rem;
+        padding: 1rem;
+        color: black;
+        font-weight: bold;
+        font-size: 1.5rem;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .next {
+        right: 6%;
+    }
+    .prev{
+		left: 6%;
+	}
+    .prev:hover,
+    .next:hover {
+        color: gray;
+    }
+
+    .numbertext {
+        color: gray;
+        font-size: 2rem;
+		width: 6rem;
+        padding: 8px 12px;
+        position: absolute;
+        top: 100;
+    }
+	.fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+	svg{
+		max-width: 3rem;
+		width: 2.5rem;
+		height: 2.5rem;
+		fill: black;
+	}
+	@media (min-width: 740px) and (max-width: 1280px){
+		html {
+		  font-size: 10px;
+		} 
+		.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top:30rem;
+			max-width: 3rem;
+			padding: 1rem;
+			color: black;
+			font-weight: bold;
+			font-size: 1.5rem;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+	  .author{
+		top: 4rem;
+		left: 39rem;
+		font-size: 3.5rem;
+	  }
+	  .about{
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 3rem;
+	  }
+		.projectHold{
+		  display: grid;
+		  grid-template-columns: repeat( 2, 35rem);
+		  gap: 2rem 2rem;
+		  justify-content: center;
+		  
+		}
+	  
+		
+		.infoHolder{
+		  align-items: center;
+		}
+	
+	
+		.imgPlace{
+		  font-size: 2rem;
+		  min-height: 15rem;
+		  max-height: 25rem;
+		}
+		.projectName{
+		  font-size: 2rem;
+		}
+		.projDes{
+		  font-size: 1.5rem;
+		  margin-bottom: 2rem;
+		}
+	  }
+	  @media (max-width: 739px) {
+		html {
+		  font-size: 7px;
+		}
+		.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top:25rem;
+			max-width: 3rem;
+			padding: 1rem;
+			color: black;
+			font-weight: bold;
+			font-size: 1.5rem;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+		.projectHold{
+		  display: grid;
+		  grid-template-columns: repeat( 1, 35rem);
+		  gap: 2rem 2rem;
+		  justify-content: center;
+		
+		}
+	
+	
+		.infoHolder{
+		  align-items: center;
+		}
+	
+		.Top{
+		  align-items: center;
+		}
+		.imgPlace{
+		  font-size: 2rem;
+		  min-height: 15rem;
+		  max-height: 22rem;
+		}
+		.projectName{
+		  font-size: 2rem;
+		  
+		}
+		.projDes{
+		  font-size: 1.5rem;
+		  margin-bottom: 2rem;
+		}
+	  }
+	  .startBlog{
+		margin-top: 2rem;
+		padding: 1rem;
+	  }
+	  .createBlog{
+		display: flex;
+		flex-direction: column;
+		color: white;
+	  }
+
+.holdBlog{
+    width: fit-content;
+    height: fit-content;
+    display: none;
+    justify-content: center;
+    align-items: center;
+	margin-top: 2rem;
+}
+.master{
+    color: white;
+    font-size: 1rem;
+    margin-top: 3rem;
+    background: #008060;
+    border-radius: 2px;
+    padding: 1rem;
+    transition: .75s;
+}
+.master:hover{
+        color: black;
+        background:white;
+        transition: .75s;
+        cursor: pointer;
+}

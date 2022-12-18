@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+.Login{
+    background: #212327;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signIn{
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+}
+
+input[type='submit']{
+    color: white;
+    background: #008060;
+    transition: .75s;
+}
+input[type='submit']:hover{
+    color: black;
+    background:white;
+    transition: .75s;
+    cursor: pointer;
+}
+input{
+    border-radius: 2px;
+    border: 0;
+    min-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+button{
+    color: white;
+    background: #008060;
+    border-radius: 2px;
+    border: 0;
+    min-height: 2rem;
+    transition: .75s;
+}
+
+button:hover{
+    color: black;
+    background:white;
+    transition: .75s;
+    cursor: pointer;
+}
+.title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.origami{
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.holdBlog{
+    width: 100vw;
+    height: 100vh;
+}
+
+.backAgain{
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background: #008060;
+    border-radius: 2px;
+    padding: .5rem;
+    margin-left: 9rem;
+    transition: .75s;
+}
+.backAgain:hover{
+        color: black;
+        background:white;
+        transition: .75s;
+        cursor: pointer;
+}
+
+@media (max-width: 739px) {
+    html {
+      font-size: 6px;
+    }
+    .signIn{
+        display: flex;
+        width: 15rem;
+        flex-direction: column;
+    }
+    .backAgain{
+        margin-left: 1rem;
+    }
+}
